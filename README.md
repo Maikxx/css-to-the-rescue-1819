@@ -1,64 +1,67 @@
-# CSS to the Rescue @cmda-minor-web 18-19
+# CSS to the Rescue @cmda-minor-web 18-19 Maikel van Veen
 
-_This course is in English_
+## Table of Contents
 
-In this three week course you are going to create an innovative, pleasurable user experience by using CSS.
+1. [Live demo](#live-demo)
+2. [Description](#description)
+3. [Installation](#installation)
+    1. [Pre-install](#pre-install)
+    2. [Install](#install)
+4. [Features](#features)
+5. [Technologies used](#technologies-used)
+6. [Data recourses](#data-recourses)
+7. [Future enhancements](#future-enhancements)
+8. [License](#license)
 
-## Learning goals
-- _You understand the broader scope of CSS: You can show that CSS can be used for more than just styling web pages._
-- _You understand the progressive enhancement parts of CSS: You can show that you can use the cascade, inheritance and specificity in your project_
-- _You understand the interactive parts of CSS: Is the UX fully enhanced within in given CSS scope?_
-- _You have been experimenting: Have the learning goals been stretched?_
+## Live demo
 
-[Rubric](https://docs.google.com/spreadsheets/d/1Xv48MSiACNmnM6nXpGGUb8mJDC459uSaxJszO_zLEp8/edit?usp=sharing)
+TODO
 
-## Programm
+## Description
 
-### Week 1 - 👁 C what you did there
+This application aims to create a **response restaurant menu** using mainly CSS and HTML.
+I received the task to create this using **no classes and no ids** to target elements.
 
-[See all the details of week 1 here](week1/).
+The **restrictions** I picked are:
 
-Goals of this week: 
+* Don't use regular shapes, like squares, rectangles, circles or triangles.
+* Make this page responsive without media queries.
 
-- Be inspired
-- Understand the cascade, inheritance and specificity
-- Get going!
+TODO: Add image
 
-<!-- [Opdrachten](https://drive.google.com/open?id=1OVhWQNaCgSluYviTKKWcApkyPd23xow1PiExb8GYANM) -->
+## Installation
 
-<!-- [Slides](https://drive.google.com/open?id=1Rjl9xqXoKniQSRJPdkU1O5YwWC33SJK8KiV0a-H_xZU) -->
+### Pre-install
 
-### Week 2 - Create Stuff, 🙃 Smile 
+* Make sure to install [yarn](https://yarnpkg.com/en/) or [npm](https://www.npmjs.com).
+* Make sure the **port** specified in the [package.json](package.json) is available (defaults to 4000).
 
-This week’s goals: Create stuff, break stuff, and learn from each other
+### Install
 
-<!-- [Opdrachten](https://drive.google.com/open?id=1GMDTdW3LycAYpZSFI6gk_lrKrx8-zLWrNh69aaVEH5Y) -->
+* Clone the repository: `git clone git@github.com:Maikxx/css-to-the-rescue-18-19.git`.
+* Navigate into the directory: `cd css-to-the-rescue-18-19`.
+* Install dependencies: `yarn` or `npm install`.
+* Start the client with: `yarn start-client` or `npm run start-client`.
 
-<!-- [Slides](https://drive.google.com/open?id=1IqQeu1m0dQiSC_KCvrn8eencAgtYe7X6qT-gm0n9Bmc) -->
+To build the client run: `yarn build-client` or `npm run build-client`.
 
-### Week 3 - 🎪 Show time
+## Features
 
-Goals: Blow us away
+* TODO
 
-<!-- [Opdrachten](https://drive.google.com/open?id=13pKQu72pshaEzKw9q5JHLa-aop85nMP6nDCdqioWjoQ) -->
+## Technologies used
 
-<!-- [Slides](https://drive.google.com/open?id=1BSzGYNLMgtHD4HRnK7f0DgyTv4Pg3xsQwD_eYNo7v0Y) -->
+* [TypeScript](https://www.typescriptlang.org)
+* [Yarn](https://yarnpkg.com/en/)
 
+## Data sources
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
+* [apioffireandice](https://anapioficeandfire.com/)
 
-<!-- ☝️ replace this description with a description of your own work -->
+## Future enhancements
 
-<!-- Add a nice image here at the end of the week, showing off your shiny frontend 📸 -->
+* TODO
 
-<!-- Maybe a table of contents here? 📚 -->
+## License
 
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- What external data source is featured in your project and what are its properties 🌠 -->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+This repository is licensed as [MIT](LICENSE) by [Maikel van Veen](https://github.com/maikxx).
