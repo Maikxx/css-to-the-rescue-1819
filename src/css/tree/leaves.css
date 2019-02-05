@@ -1,0 +1,7 @@
+/* Leaves */
+main > section > div:first-of-type > div:first-of-type {
+    height: 40%;
+    max-width: 90vw;
+    margin: 0 auto;
+    position: relative;
+}

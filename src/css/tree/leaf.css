@@ -1,0 +1,190 @@
+:root {
+    --tree-leaf-scale: 1.732001616534842;
+    --tree-leaf-scale-x2: 3.464003233069684;
+    --tree-leaf-size: 10vw;
+    --tree-leaf-color: #526B2D;
+    --tree-leaf-border-position: calc(var(--tree-leaf-size) / 3.464003233069684);
+    --tree-leaf-center-y: calc(var(--tree-leaf-size) / 2);
+}
+
+/* Leaf */
+main > section > div:first-of-type > div:first-of-type > i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: var(--tree-leaf-size);
+    height: calc(var(--tree-leaf-size) / var(--tree-leaf-scale));
+    background-color: var(--tree-leaf-color);
+    margin: calc(var(--tree-leaf-size) / var(--tree-leaf-scale-x2)) 0;
+}
+
+main > section > div:first-of-type > div:first-of-type > i::before,
+main > section > div:first-of-type > div:first-of-type > i::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: calc(var(--tree-leaf-size) / 2) solid transparent;
+    border-right: calc(var(--tree-leaf-size) / 2) solid transparent;
+}
+
+main > section > div:first-of-type > div:first-of-type > i::before {
+    bottom: 100%;
+    border-bottom: var(--tree-leaf-border-position) solid var(--tree-leaf-color);
+}
+
+main > section > div:first-of-type > div:first-of-type > i::after {
+    top: 100%;
+    width: 0;
+    border-top: var(--tree-leaf-border-position) solid var(--tree-leaf-color);
+}
+
+/* Row 1 */
+main > section > div:first-of-type > div:first-of-type > i:first-of-type {
+    left: var(--tree-leaf-size);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(2) {
+    left: calc(var(--tree-leaf-size) * 2);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(3) {
+    left: calc(var(--tree-leaf-size) * 3);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(4) {
+    left: calc(var(--tree-leaf-size) * 4);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(5) {
+    left: calc(var(--tree-leaf-size) * 5);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(6) {
+    left: calc(var(--tree-leaf-size) * 6);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(7) {
+    left: calc(var(--tree-leaf-size) * 7);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(8) {
+    left: calc(var(--tree-leaf-size) * 8);
+}
+
+/* Row 2 */
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(9) {
+    left: calc(var(--tree-leaf-size) * 7.5);
+    top: var(--tree-leaf-center-y);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(10) {
+    left: calc(var(--tree-leaf-size) * 6.5);
+    top: var(--tree-leaf-center-y);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(11) {
+    left: calc(var(--tree-leaf-size) * 5.5);
+    top: var(--tree-leaf-center-y);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(12) {
+    left: calc(var(--tree-leaf-size) * 4.5);
+    top: var(--tree-leaf-center-y);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(13) {
+    left: calc(var(--tree-leaf-size) * 3.5);
+    top: var(--tree-leaf-center-y);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(14) {
+    left: calc(var(--tree-leaf-size) * 2.5);
+    top: var(--tree-leaf-center-y);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(15) {
+    left: calc(var(--tree-leaf-size) * 1.5);
+    top: var(--tree-leaf-center-y);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(16) {
+    left: calc(var(--tree-leaf-size) * 0.5);
+    top: var(--tree-leaf-center-y);
+}
+
+/* Row 3 */
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(17) {
+    left: calc(var(--tree-leaf-size) * 7);
+    top: calc(var(--tree-leaf-center-y) * 2);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(18) {
+    left: calc(var(--tree-leaf-size) * 6);
+    top: calc(var(--tree-leaf-center-y) * 2);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(19) {
+    left: calc(var(--tree-leaf-size) * 5);
+    top: calc(var(--tree-leaf-center-y) * 2);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(20) {
+    left: calc(var(--tree-leaf-size) * 4);
+    top: calc(var(--tree-leaf-center-y) * 2);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(21) {
+    left: calc(var(--tree-leaf-size) * 3);
+    top: calc(var(--tree-leaf-center-y) * 2);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(22) {
+    left: calc(var(--tree-leaf-size) * 2);
+    top: calc(var(--tree-leaf-center-y) * 2);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(23) {
+    left: calc(var(--tree-leaf-size) * 1);
+    top: calc(var(--tree-leaf-center-y) * 2);
+}
+
+/* Row 4 */
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(24) {
+    left: calc(var(--tree-leaf-size) * 7.5);
+    top: calc(var(--tree-leaf-center-y) * 3);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(25) {
+    left: calc(var(--tree-leaf-size) * 6.5);
+    top: calc(var(--tree-leaf-center-y) * 3);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(26) {
+    left: calc(var(--tree-leaf-size) * 5.5);
+    top: calc(var(--tree-leaf-center-y) * 3);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(27) {
+    left: calc(var(--tree-leaf-size) * 4.5);
+    top: calc(var(--tree-leaf-center-y) * 3);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(28) {
+    left: calc(var(--tree-leaf-size) * 3.5);
+    top: calc(var(--tree-leaf-center-y) * 3);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(29) {
+    left: calc(var(--tree-leaf-size) * 2.5);
+    top: calc(var(--tree-leaf-center-y) * 3);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(30) {
+    left: calc(var(--tree-leaf-size) * 1.5);
+    top: calc(var(--tree-leaf-center-y) * 3);
+}
+
+main > section > div:first-of-type > div:first-of-type > i:nth-of-type(31) {
+    left: calc(var(--tree-leaf-size) * 0.5);
+    top: calc(var(--tree-leaf-center-y) * 3);
+}

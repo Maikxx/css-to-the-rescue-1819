@@ -1,0 +1,6 @@
+/* Tree */
+main > section > div:first-of-type {
+    max-width: 85vw;
+    margin: 0 auto;
+    height: 95vh;
+}
