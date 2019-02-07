@@ -1,0 +1,27 @@
+body > header {
+    transform: rotate(-10deg) translate(-1rem, -2rem);
+    max-width: 30rem;
+}
+
+body > header:hover {
+    animation: both infinite 2s moveUpAndDown;
+}
+
+body > header > h1 {
+    margin: 3rem 3rem 2rem;
+    display: inline-block;
+}
+
+body > header > p {
+    display: inline-block;
+    transform: translate(3rem, -3rem);
+}
+
+@keyframes moveUpAndDown {
+    0%, 100% {
+        transform: translate(-1rem, -2rem) rotate(-10deg);
+    }
+    50% {
+        transform: translate(-.5rem, 0) rotate(0);
+    }
+}

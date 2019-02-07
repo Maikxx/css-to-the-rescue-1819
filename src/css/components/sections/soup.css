@@ -1,0 +1,20 @@
+main > section:nth-of-type(2) h2 {
+    font-size: 5rem;
+    text-align: center;
+    position: relative;
+    margin-top: -45vh;
+    z-index: 6;
+    margin-bottom: 30vh;
+    transform: rotate(-10deg) skew(-10deg, 0);
+}
+
+i[data-shape="table"] {
+    background-image: linear-gradient(to bottom, #261700,#966F33);
+    transform: rotateZ(-10deg) translateX(-10%);
+    position: absolute;
+    height: 110vh;
+    width: 220vw;
+    top: -5%;
+    left: 0;
+    z-index: 0;
+}

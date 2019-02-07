@@ -1,0 +1,7 @@
+main {
+    transform: translateY(-2rem);
+}
+
+main > section + section {
+    margin-top: 30vh;
+}
