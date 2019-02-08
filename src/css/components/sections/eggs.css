@@ -11,9 +11,9 @@ main > section:nth-of-type(3) h2 {
     background-image: linear-gradient(to bottom, #966F33, #87BCD9);
     transform: rotateZ(-10deg) translateX(-18%);
     position: absolute;
-    height: 200vh;
-    width: 160vw;
-    top: -27vh;
+    height: 206vh;
+    width: 180vw;
+    top: -40vh;
     left: 0;
     z-index: 0;
 }
