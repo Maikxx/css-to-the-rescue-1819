@@ -5,12 +5,39 @@ main > section {
 main > section:first-of-type > h2 {
     font-size: 5rem;
     text-align: center;
-    margin-top: -45vh;
+    margin-top: -40vh;
     color: #ffffff;
     position: relative;
     z-index: 6;
     margin-bottom: 30vh;
-    transform: rotate(-10deg) skew(-10deg, 0);
+    transform: rotate(-10deg) skew(-10deg);
+}
+
+[id="tree"] g:first-child {
+    animation: shakeTree infinite 2s both;
+    transform-origin: bottom;
+    z-index: 2;
+    position: relative;
+}
+
+@keyframes shakeTree {
+    0%, 100% {
+        transform: skew(0);
+    }
+
+    50% {
+        transform: translateY(2%) skew(-2deg);
+    }
+}
+
+@keyframes shakeText {
+    0%, 100% {
+        transform: rotate(-10deg) translateY(0) skew(0);
+    }
+
+    50% {
+        transform: rotate(-10deg) translateY(10%) skew(-2deg);
+    }
 }
 
 svg {
