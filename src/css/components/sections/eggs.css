@@ -2,8 +2,22 @@ main > section:nth-of-type(3) h2 {
     font-size: 5rem;
     text-align: center;
     position: relative;
-    margin-top: -20vh;
     z-index: 6;
-    margin-bottom: 30vh;
+    color: white;
     transform: rotate(-10deg) skew(-10deg, 0);
+}
+
+[data-shape="table-to-water"] {
+    background-image: linear-gradient(to bottom, #966F33, #87BCD9);
+    transform: rotateZ(-10deg) translateX(-18%);
+    position: absolute;
+    height: 200vh;
+    width: 160vw;
+    top: -27vh;
+    left: 0;
+    z-index: 0;
+}
+
+[id=egg-svg] {
+    mix-blend-mode: multiply;
 }

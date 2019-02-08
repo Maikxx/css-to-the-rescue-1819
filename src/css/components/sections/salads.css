@@ -29,7 +29,7 @@ i[data-shape="sky"] {
     position: absolute;
     height: 50vh;
     width: 150vw;
-    top: -5%;
+    top: -5vh;
     left: 0;
     z-index: 0;
 }

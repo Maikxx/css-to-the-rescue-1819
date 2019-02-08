@@ -14,7 +14,7 @@ i[data-shape="table"] {
     position: absolute;
     height: 110vh;
     width: 220vw;
-    top: -5%;
+    top: -15vh;
     left: 0;
     z-index: 0;
 }
