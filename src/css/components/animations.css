@@ -1,0 +1,44 @@
+@keyframes shakeTree {
+    0%, 100% {
+        transform: skew(0);
+    }
+
+    50% {
+        transform: translateY(2%) skew(-2deg);
+    }
+}
+
+@keyframes shakeText {
+    0%, 100% {
+        transform: rotate(-10deg) translateY(0) skew(0);
+    }
+
+    50% {
+        transform: rotate(-10deg) translateY(10%) skew(-2deg);
+    }
+}
+
+
+@keyframes shakeEgg {
+    0%, 100% {
+        transform: rotateZ(0);
+    }
+
+    33% {
+        transform: rotateZ(-10deg);
+    }
+
+    66% {
+        transform: rotateZ(10deg);
+    }
+}
+
+@keyframes moveSmoke {
+    0%, 100% {
+        transform: scaleX(1);
+    }
+
+    50% {
+        transform: scaleX(-1);
+    }
+}

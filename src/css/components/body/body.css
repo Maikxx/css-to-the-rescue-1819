@@ -1,9 +1,0 @@
-body {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Architects Daughter', cursive;
-    text-transform: capitalize;
-    overflow-x: hidden;
-}
-
-@import './bodyHeader.css';

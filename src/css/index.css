@@ -1,7 +1,6 @@
 @import './reset.css';
-@import './components/body/body.css';
+@import './components/animations.css';
+@import './components/body.css';
 @import './components/main.css';
 @import './components/svg.css';
-@import './components/sections/salads.css';
-@import './components/sections/soup.css';
-@import './components/sections/eggs.css';
+@import './components/content.css';

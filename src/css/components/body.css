@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Architects Daughter', cursive;
+    text-transform: capitalize;
+    overflow-x: hidden;
+}
+
+body > header {
+    display: flex;
+    flex-direction: column;
+}
+
+body > header > h1 {
+    margin: 3rem 3rem 2rem;
+    display: inline-block;
+    transform: rotate(-3deg) translate(-1rem, -2rem);
+}
+
+body > header > p {
+    display: inline-block;
+    transform: rotate(-3deg) translate(3rem, -4rem);
+}
