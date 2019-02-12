@@ -48,8 +48,12 @@ body > header > nav > ul > li + li {
 
 body > header > nav > ul > li > a {
     text-decoration: none;
+    font-size: 3vw;
+    position: relative;
+    color: #87BCD9;
+    z-index: 5;
 }
 
 body > header > nav > ul > li > a:hover {
-    filter: hue-rotate(180deg)
+    filter: hue-rotate(180deg);
 }

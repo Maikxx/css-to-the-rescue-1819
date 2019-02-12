@@ -16,6 +16,8 @@ main > footer {
 
 main > footer > span {
     margin: 0 auto;
+    color: #000000;
+    font-weight: bold;
 }
 
 main > footer > span::after {
