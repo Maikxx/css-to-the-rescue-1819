@@ -1,3 +1,23 @@
 main {
     transform: translateY(-2rem);
 }
+
+main > footer {
+    color: #ffffff;
+    padding: 2vh 10vw;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-image: radial-gradient(rgba(135, 188, 217, 0.486), #87BCD9);
+}
+
+main > footer > span {
+    margin: 0 auto;
+}
+
+main > footer > span::after {
+    content: counter(recipes);
+}

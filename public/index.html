@@ -7,15 +7,37 @@
     </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+	<link rel="stylesheet" href="../src/css/index.css">
 </head>
 <body>
 	<header>
-		<h1><span>Russ</span> <span>&</span> <span>Daughters</span></h1>
-		<p>appetizing since 1924</p>
+		<div>
+			<h1><span>Russ</span> <span>&</span> <span>Daughters</span></h1>
+			<p>appetizing since 1924</p>
+		</div>
+		<nav>
+			<ul>
+				<li>
+					<a href="#salads">
+						Salads
+					</a>
+				</li>
+				<li>
+					<a href="#soup">
+						Soup
+					</a>
+				</li>
+				<li>
+					<a href="#eggs">
+						Eggs
+					</a>
+				</li>
+			</ul>
+		</nav>
 	</header>
 
 	<main>
-		<section>
+		<section id="#salads">
 			<header>
 				<svg id="tree" enable-background="new 0 0 750 661" version="1.1" viewBox="0 0 750 661" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
 					<g>
@@ -81,27 +103,30 @@
 				<h2>salads</h2>
 			</header>
 			<div>
-				<article>
+				<label>
+					<input type="checkbox" class="recipes">
 					<h3>Mixed Green</h3>
 					<p>greens, fennel, dill, capers, citrus dressing</p>
 					<span>9</span>
-				</article>
+				</label>
 
-				<article>
+				<label>
+					<input type="checkbox" class="recipes">
 					<h3>Chopped Salad</h3>
 					<p>smoked whitefish, avocado, beets, egg, apple, mixed greens, matzo, buttermilk dressing</p>
 					<span>14</span>
-				</article>
+				</label>
 
-				<article>
+				<label>
+					<input type="checkbox" class="recipes">
 					<h3>Smoked Trout& Potato</h3>
 					<p>smoked trout, watercress, caper mustard dressing</p>
 					<span>14</span>
-				</article>
+				</label>
 			</div>
 		</section>
 
-		<section>
+		<section id="soup">
 			<header>
 				<div>
 					<svg class="smoke-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 215.6 470">
@@ -238,33 +263,37 @@
 				<h2>Soup</h2>
 			</header>
 			<div>
-				<article>
+				<label>
+					<input type="checkbox" class="recipes">
 					<h3>Matzo Ball</h3>
 					<p>chicken, vegetables, matzo ball</p>
 					<span>8</span>
-				</article>
+				</label>
 
-				<article>
+				<label>
+					<input type="checkbox" class="recipes">
 					<h3>Mushroom Barley</h3>
 					<p>mushrooms, barley with shissel rye bread</p>
 					<span>8</span>
-				</article>
+				</label>
 
-				<article>
+				<label>
+					<input type="checkbox" class="recipes">
 					<h3>Borscht</h3>
 					<p>served chilled: beets, sour cream, dill with pumpernickel</p>
 					<span>8</span>
-				</article>
+				</label>
 
-				<article>
+				<label>
+					<input type="checkbox" class="recipes">
 					<h3>Smoked Whitefish Chowder</h3>
 					<p>dill, esplette pepper, matzo</p>
 					<span>10</span>
-				</article>
+				</label>
 			</div>
 		</section>
 
-		<section>
+		<section id="eggs">
 			<header>
 				<h2>Eggs</h2>
 				<svg id="egg-svg" enable-background="new 0 0 516 841" version="1.1" viewBox="0 0 516 841" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
@@ -307,102 +336,62 @@
 				</svg>
 			</header>
 			<div>
-				<article>
+				<label>
+					<input type="checkbox" class="recipes">
 					<h3>Lox, eggs &amp; onions</h3>
 					<p>with toasted shissel rye</p>
 					<span>15</span>
-				</article>
+				</label>
 
-				<article>
+				<label>
+					<input type="checkbox" class="recipes">
 					<h3>sturgeon, eggs &amp; onion</h3>
 					<p>with toasted pumpernickel</p>
 					<span>19</span>
-				</article>
+				</label>
 
-				<article>
+				<label>
+					<input type="checkbox" class="recipes">
 					<h3>bella's matzo brei</h3>
 					<p>matzo, egg, applesauce, sour cream</p>
 					<span>12</span>
-				</article>
+				</label>
 
-				<article>
+				<label>
+					<input type="checkbox" class="recipes">
 					<h3>lower sunny side</h3>
 					<p>sunny side up eggs, gaspe nova smoked salmon, potato latkes</p>
 					<span>16</span>
-				</article>
+				</label>
 
-				<article>
+				<label>
+					<input type="checkbox" class="recipes">
 					<h3>eggs benny</h3>
 					<p>poached eggs, scottish smoked salmon, sautéed spinach, hollandaise, challah</p>
 					<span>18</span>
-				</article>
+				</label>
 
-				<article>
+				<label>
+					<input type="checkbox" class="recipes">
 					<h3>farm egg omelette</h3>
 					<p>gaspe nova smoked salmon, cream cheese</p>
 					<span>15</span>
-				</article>
+				</label>
 
-				<article>
+				<label>
+					<input type="checkbox" class="recipes">
 					<h3>soft scrambled eggs &amp; caviar</h3>
 					<p>custard-like egg, caviar with challah</p>
 					<span>180</span>
-				</article>
+				</label>
 			</div>
 		</section>
 
-		<!-- <section>
-			<h2>Deserts</h2>
-			<div>
-				<article>
-					<h3>blintzes</h3>
-					<p>fruit compote, sour cream</p>
-					<span>8</span>
-				</article>
-
-				<article>
-					<h3>babka french toast</h3>
-					<p>chocolate babka, sour cream, berries</p>
-					<span>10</span>
-				</article>
-
-				<article>
-					<h3>noodle kugel</h3>
-					<p>farmer cheese, raisins, egg noodles</p>
-					<span>7</span>
-				</article>
-
-				<article>
-					<h3>challah bread pudding</h3>
-					<p>dried apricots, caramel sauce</p>
-					<span>9</span>
-				</article>
-
-				<article>
-					<h3>halvah ice cream</h3>
-					<p>halvah, sesame, salted caramel</p>
-					<span>8</span>
-				</article>
-
-				<article>
-					<h3>grandpa's grapefruit</h3>
-					<p>grapefruit, white germ, maple syrup</p>
-					<span>6</span>
-				</article>
-
-				<article>
-					<h3>baked farmer cheese</h3>
-					<p>blueberry, walnut &amp; honey with pumpernickel</p>
-					<span>7</span>
-				</article>
-
-				<article>
-					<h3>cookie plate</h3>
-					<p>Russ &amp; daughters cookies &amp; sweets</p>
-					<span>8</span>
-				</article>
-			</div>
-		</section> -->
+		<footer>
+			<span>
+				Total amount of recipes selected:
+			</span>
+		</footer>
 	</main>
 	<script src="../src/ts/index.ts"></script>
 </body>

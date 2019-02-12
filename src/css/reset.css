@@ -6,6 +6,10 @@
     border: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 i {
     display: block;
 }

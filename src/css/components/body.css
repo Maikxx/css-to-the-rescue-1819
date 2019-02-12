@@ -8,16 +8,44 @@ body {
 
 body > header {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+body > header > div {
+    display: flex;
     flex-direction: column;
 }
 
-body > header > h1 {
-    margin: 3rem 3rem 2rem;
-    display: inline-block;
-    transform: rotate(-3deg) translate(-1rem, -2rem);
+body > header > div > h1 {
+    transform: rotate(-3deg);
 }
 
-body > header > p {
-    display: inline-block;
-    transform: rotate(-3deg) translate(3rem, -4rem);
+body > header > div > p {
+    transform: rotate(-3deg);
+}
+
+body > header > nav > ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    align-items: center;
+}
+
+body > header > nav > ul > li {
+    font-size: 1.5vw;
+}
+
+body > header > nav > ul > li + li {
+    margin-left: 2vw;
+}
+
+body > header > nav > ul > li > a {
+    text-decoration: none;
+}
+
+body > header > nav > ul > li > a:hover {
+    filter: hue-rotate(180deg)
 }
