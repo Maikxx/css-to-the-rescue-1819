@@ -13,11 +13,27 @@ main > section:nth-of-type(3) h2 {
     position: absolute;
     height: 206vh;
     width: 180vw;
-    top: -40vh;
+    top: -50vh;
     left: 0;
     z-index: 0;
 }
 
-[id=egg-svg] {
+[id="egg-svg"] {
     mix-blend-mode: multiply;
+    animation: shakeEgg infinite 1s ease-in-out both;
+    transform-origin: center;
+}
+
+@keyframes shakeEgg {
+    0%, 100% {
+        transform: rotateZ(0);
+    }
+
+    33% {
+        transform: rotateZ(-10deg);
+    }
+
+    66% {
+        transform: rotateZ(10deg);
+    }
 }
