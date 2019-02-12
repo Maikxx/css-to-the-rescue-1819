@@ -3,6 +3,10 @@ main > section:first-child {
     background-image: linear-gradient(to bottom, #ABCDEF 0%, #87BCD9 30%, #779342 40%, #445B25 75%, #455823 85%, #494E1C 92%, #503D10 96%, #53350A 98%, #261700 100%);
 }
 
+main > section:first-child h2 {
+    animation: shakeText infinite 2s both;
+}
+
 main > section:first-child svg g:first-child {
     animation: shakeTree infinite 2s both;
     transform-origin: bottom;

@@ -10,11 +10,11 @@
 
 @keyframes shakeText {
     0%, 100% {
-        transform: rotate(-10deg) translateY(0) skew(0);
+        transform: rotate(-10deg) translate(-40%, -50%) skew(0);
     }
 
     50% {
-        transform: rotate(-10deg) translateY(10%) skew(-2deg);
+        transform: rotate(-10deg) translate(-35%, -50%) skew(-2deg);
     }
 }
 
