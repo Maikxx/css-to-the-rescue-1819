@@ -1,5 +1,4 @@
 /* First content section */
-
 main > section:first-child {
     background-image: linear-gradient(to bottom, #ABCDEF 0%, #87BCD9 30%, #779342 40%, #445B25 75%, #455823 85%, #494E1C 92%, #503D10 96%, #53350A 98%, #261700 100%);
 }
@@ -10,19 +9,16 @@ main > section:first-child svg g:first-child {
 }
 
 /* Second content section */
-
 main > section:nth-of-type(2) {
     background-image: linear-gradient(to bottom, #261700,#966F33);
 }
 
 /* Third content section */
-
 main > section:nth-of-type(3) {
     background-image: linear-gradient(to bottom, #966F33, #87BCD9);
 }
 
-main > section:nth-of-type(3) > svg {
-    mix-blend-mode: multiply;
+main > section:nth-of-type(3) > header > svg {
     animation: shakeEgg infinite 1s ease-in-out both;
     transform-origin: center;
 }
