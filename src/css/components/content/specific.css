@@ -65,16 +65,18 @@ svg[class="smoke-svg"]:nth-child(5) {
 main > section:nth-of-type(3) {
     background-image: linear-gradient(to bottom, #966F33, #87BCD9);
     perspective: 500px;
+    overflow: hidden;
 }
 
 main > section:nth-of-type(3) > header {
     animation: rotateEgg infinite 2s ease-in-out forwards;
     transform-origin: center;
+    filter: contrast(50%);
     backface-visibility: visible;
 }
 
 main > section:nth-of-type(3) > header > h2 {
     top: 50%;
     transform: translate(-50%, -50%);
-    font-size: 8vw;
+    font-size: calc(2rem + (var(--screen-base-width) * 4));
 }
