@@ -12,12 +12,15 @@ main > footer {
     justify-content: space-between;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     background-image: radial-gradient(rgba(135, 188, 217, 0.486), #87BCD9);
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 main > footer > span {
     margin: 0 auto;
     color: #000000;
     font-weight: bold;
+    font-size: calc(0.75rem + (var(--screen-base-width) * 0.5));
 }
 
 main > footer > span::after {
