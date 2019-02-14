@@ -34,12 +34,18 @@ body > header > div {
     flex-direction: column;
 }
 
-body > header > div > h1 {
+body > header > div > h1,
+body > header > div > p,
+body > header > nav > ul {
     transform: rotate(-3deg);
 }
 
+body > header > div > h1 {
+    font-size: calc(2rem + (var(--screen-base-width) * 1.50));
+}
+
 body > header > div > p {
-    transform: rotate(-3deg);
+    font-size: calc(1rem + (var(--screen-base-width) * 0.5));
 }
 
 body > header > nav > ul {
