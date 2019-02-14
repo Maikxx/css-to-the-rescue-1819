@@ -36,6 +36,7 @@ To build the client run: `yarn build-client` or `npm run build-client`.
 
 ## Technologies used
 
+* [Parcel](https://github.com/parcel-bundler/parcel)
 * [TypeScript](https://www.typescriptlang.org)
 * [Yarn](https://yarnpkg.com/en/)
 
