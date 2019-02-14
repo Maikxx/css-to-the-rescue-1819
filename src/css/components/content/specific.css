@@ -26,7 +26,7 @@ main > section:nth-of-type(2) > header > div:first-child {
     opacity: 0.1;
 }
 
-main > section:nth-of-type(2) > header > div > svg[class="smoke-svg"] {
+svg[class="smoke-svg"] {
     transform: scaleX(1);
     animation: moveSmoke infinite both ease-in-out .5s;
     max-height: 10vh;
@@ -36,27 +36,27 @@ main > section:nth-of-type(2) > header > div > svg[class="smoke-svg"] {
     position: absolute;
 }
 
-main > section:nth-of-type(2) > header > div > svg[class="smoke-svg"]:first-child {
+svg[class="smoke-svg"]:first-child {
     left: 0;
     top: 5vh;
 }
 
-main > section:nth-of-type(2) > header > div > svg[class="smoke-svg"]:nth-child(2) {
+svg[class="smoke-svg"]:nth-child(2) {
     left: 25%;
     top: 3vh;
 }
 
-main > section:nth-of-type(2) > header > div > svg[class="smoke-svg"]:nth-child(3) {
+svg[class="smoke-svg"]:nth-child(3) {
     left: 50%;
     top: 0;
 }
 
-main > section:nth-of-type(2) > header > div > svg[class="smoke-svg"]:nth-child(4) {
+svg[class="smoke-svg"]:nth-child(4) {
     left: 75%;
     top: 3vh;
 }
 
-main > section:nth-of-type(2) > header > div > svg[class="smoke-svg"]:nth-child(5) {
+svg[class="smoke-svg"]:nth-child(5) {
     left: 100%;
     top: 5vh;
 }
@@ -64,11 +64,13 @@ main > section:nth-of-type(2) > header > div > svg[class="smoke-svg"]:nth-child(
 /* Third content section */
 main > section:nth-of-type(3) {
     background-image: linear-gradient(to bottom, #966F33, #87BCD9);
+    perspective: 500px;
 }
 
-main > section:nth-of-type(3) > header > svg {
-    animation: shakeEgg infinite 1s ease-in-out both;
+main > section:nth-of-type(3) > header {
+    animation: rotateEgg infinite 2s ease-in-out forwards;
     transform-origin: center;
+    backface-visibility: visible;
 }
 
 main > section:nth-of-type(3) > header > h2 {
