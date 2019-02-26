@@ -72,16 +72,31 @@ body > header > nav > ul > li > a {
     z-index: 5;
 }
 
-body > header > nav > ul > li > a::after {
+body > header > nav > ul > li > a::after,
+body > header > nav > ul > li > a::before {
     content: '';
     display: block;
     opacity: 0;
     width: 0;
     height: 0;
+    transition: all 200ms ease-in-out;
+    position: relative;
+}
+
+body > header > nav > ul > li > a::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    border-top: .5rem solid #87BCD9;
+    border-bottom: .5rem solid transparent;
+    border-right: .5rem solid #87BCD9;
+    transform: translateX(0.5rem) translateY(-50%) rotateZ(-90deg);
+}
+
+body > header > nav > ul > li > a::after {
     border-top: .5rem solid #87BCD9;
     border-bottom: .5rem solid transparent;
     border-left: .5rem solid #87BCD9;
-    transition: all 200ms ease-in-out;
     transform: translateX(-0.5rem) rotateZ(90deg);
 }
 
@@ -90,7 +105,15 @@ body > header > nav > ul > li > a:active {
     filter: hue-rotate(180deg);
 }
 
+body > header > nav > ul > li > a:hover::before,
+body > header > nav > ul > li > a:hover::after {
+    opacity: 1;
+}
+
+body > header > nav > ul > li > a:hover::before {
+    transform: translateX(-1.5rem) translateY(-50%) rotateZ(-90deg);
+}
+
 body > header > nav > ul > li > a:hover::after {
     transform: translateX(0.5rem) rotateZ(90deg);
-    opacity: 1;
 }
