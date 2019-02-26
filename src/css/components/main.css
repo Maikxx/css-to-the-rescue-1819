@@ -14,6 +14,11 @@ main > footer {
     background-image: radial-gradient(rgba(135, 188, 217, 0.486), #87BCD9);
     text-overflow: ellipsis;
     white-space: nowrap;
+    transition: transform 500ms ease-in-out;
+}
+
+main > footer:hover {
+    transform: rotateX(360deg);
 }
 
 main > footer > span {
