@@ -51,11 +51,7 @@ main > section > div > label + label {
 
 main > section > div > label > input {
     visibility: hidden;
-}
-
-main > section {
-    counter-reset: recipes;
-}
+}}
 
 main > section > div > label > input {
     opacity: 0;
