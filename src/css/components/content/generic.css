@@ -78,9 +78,12 @@ main > section > div > label > input:checked {
 }
 
 main > section > div > label:hover > h3,
-main > section > div > label:focus > h3,
-main > section > div > label > input:checked + h3 {
+main > section > div > label:focus > h3 {
     border-bottom-color: #FFFFFF;
+}
+
+main > section > div > label > input:checked + h3 {
+    border-bottom-color: #f26d3e;
 }
 
 /* Ingredients */

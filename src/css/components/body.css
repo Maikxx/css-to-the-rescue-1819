@@ -101,19 +101,24 @@ body > header > nav > ul > li > a::after {
 }
 
 body > header > nav > ul > li > a:hover,
-body > header > nav > ul > li > a:active {
+body > header > nav > ul > li > a:active,
+body > header > nav > ul > li > a:focus {
     filter: hue-rotate(180deg);
 }
 
 body > header > nav > ul > li > a:hover::before,
-body > header > nav > ul > li > a:hover::after {
+body > header > nav > ul > li > a:hover::after,
+body > header > nav > ul > li > a:focus::before,
+body > header > nav > ul > li > a:focus::after {
     opacity: 1;
 }
 
-body > header > nav > ul > li > a:hover::before {
+body > header > nav > ul > li > a:hover::before,
+body > header > nav > ul > li > a:focus::before {
     transform: translateX(-1.5rem) translateY(-50%) rotateZ(-90deg);
 }
 
-body > header > nav > ul > li > a:hover::after {
+body > header > nav > ul > li > a:hover::after,
+body > header > nav > ul > li > a:focus::after {
     transform: translateX(0.5rem) rotateZ(90deg);
 }
