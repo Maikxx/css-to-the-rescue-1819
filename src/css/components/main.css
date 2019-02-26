@@ -8,26 +8,104 @@ main > footer {
     font-weight: bold;
     display: flex;
     flex-direction: row;
+    position: sticky;
+    bottom: -2rem;
+    left: 0;
+    right: 0;
     flex-wrap: wrap;
     justify-content: space-between;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     background-image: radial-gradient(rgba(135, 188, 217, 0.486), #87BCD9);
     text-overflow: ellipsis;
     white-space: nowrap;
-    transition: transform 500ms ease-in-out;
 }
 
-main > footer:hover {
-    transform: rotateX(360deg);
-}
-
-main > footer > span {
+main > footer form {
     margin: 0 auto;
     color: #000000;
     font-weight: bold;
     font-size: calc(0.75rem + (var(--screen-base-width) * 0.5));
 }
 
-main > footer > span::after {
+main > footer legend {
+    margin: 0 auto;
+}
+
+main > footer legend > div {
+    display: inline-block;
+}
+
+main > footer legend > div:first-of-type {
+    transform: rotateZ(-2deg);
+}
+
+main > footer legend > div:nth-of-type(2) {
+    margin-left: .5rem;
+    transform: rotateZ(2deg);
+}
+
+main > footer [id=amountOfRecipes]::after {
     content: counter(recipes);
 }
+
+main > footer legend + div {
+    margin-top: 1rem;
+}
+
+main > footer legend + div label {
+    display: inline-block;
+}
+
+main > footer legend + div label:first-child {
+    transform: rotateZ(-2deg);
+}
+
+main > footer legend + div label:nth-child(2) {
+    transform: rotateZ(2deg);
+}
+
+main > footer input {
+    border-radius: 5rem;
+    padding: .5rem 0.5rem;
+}
+
+main > footer input:focus {
+    background-image: linear-gradient(90deg, #B1D4F7 0%, #79FBCE 49%, #F9F871 80%, #B1D4F7 100%)!important;
+    animation: rainbowBorder 1s linear infinite forwards;
+}
+
+main > footer button {
+    padding: 0.5rem 5rem;
+    width: calc(5vw + 6px);
+    margin: 0 auto;
+    display: block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background-image: linear-gradient(90deg, #B1D4F7 0%, #79FBCE 49%, #F9F871 80%, #B1D4F7 100%);
+}
+
+main > footer button:hover {
+    animation: rainbowBorder 1s linear infinite forwards;
+}
+
+
+main > footer button::after {
+    content: attr(data-title);
+    position: absolute;
+    top: 6px!important;
+    bottom: 6px!important;
+    left: 6px!important;
+    right: 4px!important;
+    background-color: white;
+    border-radius: 5rem;
+    display: block;
+}
+
+@keyframes rainbowBorder {
+    to {
+      background-position: 20vw;
+    }
+  }
