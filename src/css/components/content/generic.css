@@ -8,7 +8,7 @@ main > section {
 }
 
 main > section + section {
-    margin-top: -9vh;
+    margin-top: -12vh;
 }
 
 main > section > div {
@@ -51,7 +51,7 @@ main > section > div > label + label {
 
 main > section > div > label > input {
     visibility: hidden;
-}}
+}
 
 main > section > div > label > input {
     opacity: 0;
