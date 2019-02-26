@@ -388,9 +388,30 @@
 		</section>
 
 		<footer>
-			<span>
-				Total amount of recipes selected:
-			</span>
+			<form>
+				<fieldset>
+					<legend>
+						<div>Pay <span id="amountOfRecipes"></span> recipes </div><div> with PayPal.</div>
+					</legend>
+					<div>
+						<label>
+							<span>
+								Email
+							</span>
+							<input type="email" name="paypalEmail" id="paypalEmail" placeholder="Email">
+						</label>
+						<label>
+							<span>
+								Password
+							</span>
+							<input type="password" name="paypalPassword" id="paypalPassword" placeholder="Password">
+						</label>
+					</div>
+					<button type="submit" data-title="Pay now!">
+						Pay now!
+					</button>
+				</fieldset>
+			</form>
 		</footer>
 	</main>
 	<script src="../src/ts/index.ts"></script>
