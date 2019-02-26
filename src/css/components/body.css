@@ -2,6 +2,10 @@
     --screen-base-width: calc(1vw - 3.2px);
 }
 
+* {
+    outline: none;
+}
+
 body {
     display: flex;
     flex-direction: column;

@@ -41,10 +41,6 @@ main > section > div > label {
     cursor: pointer;
 }
 
-main > section > div > label:focus-within {
-    border: 1px solid red;
-}
-
 main > section > div > label + label {
     margin-top: 1rem;
 }
