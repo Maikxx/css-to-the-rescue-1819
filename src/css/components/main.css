@@ -8,10 +8,6 @@ main > footer {
     font-weight: bold;
     display: flex;
     flex-direction: row;
-    position: sticky;
-    bottom: -2rem;
-    left: 0;
-    right: 0;
     flex-wrap: wrap;
     justify-content: space-between;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
@@ -27,8 +23,16 @@ main > footer form {
     font-size: calc(0.75rem + (var(--screen-base-width) * 0.5));
 }
 
+main > footer fieldset > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 main > footer legend {
     margin: 0 auto;
+    padding-top: 2em;
 }
 
 main > footer legend > div {
@@ -62,6 +66,8 @@ main > footer legend + div label:first-child {
 
 main > footer legend + div label:nth-child(2) {
     transform: rotateZ(2deg);
+    margin-left: 2em;
+    margin-top: 1em;
 }
 
 main > footer input {
@@ -85,6 +91,7 @@ main > footer button {
     overflow: hidden;
     cursor: pointer;
     background-image: linear-gradient(90deg, #B1D4F7 0%, #79FBCE 49%, #F9F871 80%, #B1D4F7 100%);
+    margin-bottom: 1em;
 }
 
 main > footer button:hover {
