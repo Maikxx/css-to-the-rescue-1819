@@ -20,7 +20,7 @@ body {
     font-variant: small-caps;
     will-change: scroll-position;
 
-    counter-reset: recipes;
+    counter-reset: recipes recipeCost;
 }
 
 body > header {

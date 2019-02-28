@@ -52,6 +52,10 @@ main > footer [id=amountOfRecipes]::after {
     content: counter(recipes);
 }
 
+main > footer [id=costOfRecipes]::after {
+    content: counter(recipeCost);
+}
+
 main > footer legend + div {
     margin-top: 1rem;
 }
