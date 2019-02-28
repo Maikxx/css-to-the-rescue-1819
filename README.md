@@ -2,8 +2,8 @@
 
 [Demo link](https://css-to-the-rescue-maikel.netlify.com)
 
-This application aims to create a **response restaurant menu** using mainly CSS and HTML.
-I received the task to create this using **no classes and no ids** to target elements.
+This application aims to create a **response restaurant menu** using HTML5 and CSS.
+I received the task to create this using **no classes and no ids** to target elements in CSS.
 
 The **restrictions** I picked are:
 
@@ -37,7 +37,6 @@ To build the client run: `yarn build-client` or `npm run build-client`.
 ## Technologies used
 
 * [Parcel](https://github.com/parcel-bundler/parcel)
-* [TypeScript](https://www.typescriptlang.org)
 * [Yarn](https://yarnpkg.com/en/)
 
 ## License
