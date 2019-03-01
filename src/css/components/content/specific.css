@@ -56,7 +56,7 @@ main > section:nth-of-type(2) > div > label:nth-of-type(4) > input:checked {
 
 svg[class="smoke-svg"] {
     transform: scaleX(1);
-    animation: moveSmoke infinite both ease-in-out .5s;
+    animation: moveSmoke infinite both var(--animation-timing) .5s;
     max-height: 10vh;
     padding-top: 0;
     height: 10vh;
@@ -97,7 +97,7 @@ main > section:nth-of-type(3) {
 }
 
 main > section:nth-of-type(3) > header {
-    animation: rotateEgg infinite 2s ease-in-out forwards;
+    animation: rotateEgg infinite 2s var(--animation-timing) forwards;
     transform-origin: center;
     filter: contrast(50%);
     backface-visibility: visible;

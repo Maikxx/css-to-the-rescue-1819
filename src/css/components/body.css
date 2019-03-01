@@ -1,5 +1,6 @@
 :root {
     --screen-base-width: calc(1vw - 3.2px);
+    --animation-timing: cubic-bezier(.57, .23, 1, .57);
 }
 
 * {
@@ -85,7 +86,7 @@ body > header > nav > ul > li > a::before {
     opacity: 0;
     width: 0;
     height: 0;
-    transition: all 200ms ease-in-out;
+    transition: all 200ms var(--animation-timing);
     position: relative;
 }
 

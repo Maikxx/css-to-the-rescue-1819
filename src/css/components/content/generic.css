@@ -65,7 +65,7 @@ main > section > div > label > h3 {
     border-bottom: 1px solid transparent;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    transition: 50ms ease-in-out all;
+    transition: 50ms var(--animation-timing) all;
     font-size: calc(1rem + (var(--screen-base-width) * 1));
 }
 
