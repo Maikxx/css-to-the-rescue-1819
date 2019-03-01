@@ -54,7 +54,7 @@ main > section:nth-of-type(2) > div > label:nth-of-type(4) > input:checked {
     counter-increment: recipes recipeCost 10;
 }
 
-svg[class="smoke-svg"] {
+main > section:nth-of-type(2) > header > div > svg {
     transform: scaleX(1);
     animation: moveSmoke infinite both var(--animation-timing) .5s;
     max-height: 10vh;
@@ -64,27 +64,27 @@ svg[class="smoke-svg"] {
     position: absolute;
 }
 
-svg[class="smoke-svg"]:first-child {
+main > section:nth-of-type(2) > header > div > svg:first-child {
     left: 0;
     top: 5vh;
 }
 
-svg[class="smoke-svg"]:nth-child(2) {
+main > section:nth-of-type(2) > header > div > svg:nth-child(2) {
     left: 25%;
     top: 3vh;
 }
 
-svg[class="smoke-svg"]:nth-child(3) {
+main > section:nth-of-type(2) > header > div > svg:nth-child(3) {
     left: 50%;
     top: 0;
 }
 
-svg[class="smoke-svg"]:nth-child(4) {
+main > section:nth-of-type(2) > header > div > svg:nth-child(4) {
     left: 75%;
     top: 3vh;
 }
 
-svg[class="smoke-svg"]:nth-child(5) {
+main > section:nth-of-type(2) > header > div > svg:nth-child(5) {
     left: 100%;
     top: 5vh;
 }
