@@ -73,68 +73,6 @@ main > section > div > label > input:checked {
     counter-increment: recipes;
 }
 
-/* 1 */
-
-main > section:first-of-type > div > label:nth-of-type(1) > input:checked {
-    counter-increment: recipes recipeCost 9;
-}
-
-main > section:first-of-type > div > label:nth-of-type(2) > input:checked {
-    counter-increment: recipes recipeCost 14;
-}
-
-main > section:first-of-type > div > label:nth-of-type(3) > input:checked {
-    counter-increment: recipes recipeCost 14;
-}
-
-/* 2 */
-
-main > section:nth-of-type(2) > div > label:nth-of-type(1) > input:checked {
-    counter-increment: recipes recipeCost 8;
-}
-
-main > section:nth-of-type(2) > div > label:nth-of-type(2) > input:checked {
-    counter-increment: recipes recipeCost 8;
-}
-
-main > section:nth-of-type(2) > div > label:nth-of-type(3) > input:checked {
-    counter-increment: recipes recipeCost 8;
-}
-
-main > section:nth-of-type(2) > div > label:nth-of-type(4) > input:checked {
-    counter-increment: recipes recipeCost 10;
-}
-
-/* 3 */
-
-main > section:nth-of-type(3) > div > label:nth-of-type(1) > input:checked {
-    counter-increment: recipes recipeCost 15;
-}
-
-main > section:nth-of-type(3) > div > label:nth-of-type(2) > input:checked {
-    counter-increment: recipes recipeCost 19;
-}
-
-main > section:nth-of-type(3) > div > label:nth-of-type(3) > input:checked {
-    counter-increment: recipes recipeCost 12;
-}
-
-main > section:nth-of-type(3) > div > label:nth-of-type(4) > input:checked {
-    counter-increment: recipes recipeCost 16;
-}
-
-main > section:nth-of-type(3) > div > label:nth-of-type(5) > input:checked {
-    counter-increment: recipes recipeCost 18;
-}
-
-main > section:nth-of-type(3) > div > label:nth-of-type(6) > input:checked {
-    counter-increment: recipes recipeCost 15;
-}
-
-main > section:nth-of-type(3) > div > label:nth-of-type(7) > input:checked {
-    counter-increment: recipes recipeCost 180;
-}
-
 main > section > div > label:hover > h3,
 main > section > div > label:focus > h3 {
     border-bottom-color: #FFFFFF;

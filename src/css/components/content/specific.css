@@ -12,6 +12,18 @@ main > section:first-child svg g:first-child {
     transform-origin: bottom;
 }
 
+main > section:first-of-type > div > label:nth-of-type(1) > input:checked {
+    counter-increment: recipes recipeCost 9;
+}
+
+main > section:first-of-type > div > label:nth-of-type(2) > input:checked {
+    counter-increment: recipes recipeCost 14;
+}
+
+main > section:first-of-type > div > label:nth-of-type(3) > input:checked {
+    counter-increment: recipes recipeCost 14;
+}
+
 /* Second content section */
 main > section:nth-of-type(2) {
     background-image: linear-gradient(to bottom, #261700,#966F33);
@@ -24,6 +36,22 @@ main > section:nth-of-type(2) > header > div:first-child {
     top: 5vh;
     z-index: 5;
     opacity: 0.1;
+}
+
+main > section:nth-of-type(2) > div > label:nth-of-type(1) > input:checked {
+    counter-increment: recipes recipeCost 8;
+}
+
+main > section:nth-of-type(2) > div > label:nth-of-type(2) > input:checked {
+    counter-increment: recipes recipeCost 8;
+}
+
+main > section:nth-of-type(2) > div > label:nth-of-type(3) > input:checked {
+    counter-increment: recipes recipeCost 8;
+}
+
+main > section:nth-of-type(2) > div > label:nth-of-type(4) > input:checked {
+    counter-increment: recipes recipeCost 10;
 }
 
 svg[class="smoke-svg"] {
@@ -79,4 +107,32 @@ main > section:nth-of-type(3) > header > h2 {
     top: 50%;
     transform: translate(-50%, -50%);
     font-size: calc(2rem + (var(--screen-base-width) * 4));
+}
+
+main > section:nth-of-type(3) > div > label:nth-of-type(1) > input:checked {
+    counter-increment: recipes recipeCost 15;
+}
+
+main > section:nth-of-type(3) > div > label:nth-of-type(2) > input:checked {
+    counter-increment: recipes recipeCost 19;
+}
+
+main > section:nth-of-type(3) > div > label:nth-of-type(3) > input:checked {
+    counter-increment: recipes recipeCost 12;
+}
+
+main > section:nth-of-type(3) > div > label:nth-of-type(4) > input:checked {
+    counter-increment: recipes recipeCost 16;
+}
+
+main > section:nth-of-type(3) > div > label:nth-of-type(5) > input:checked {
+    counter-increment: recipes recipeCost 18;
+}
+
+main > section:nth-of-type(3) > div > label:nth-of-type(6) > input:checked {
+    counter-increment: recipes recipeCost 15;
+}
+
+main > section:nth-of-type(3) > div > label:nth-of-type(7) > input:checked {
+    counter-increment: recipes recipeCost 180;
 }
