@@ -1,6 +1,6 @@
 # CSS to the Rescue @cmda-minor-web 18-19 Maikel van Veen
 
-[Demo link](https://css-to-the-rescue-maikel.netlify.com)
+[🚀 Demo link 🚀](https://css-to-the-rescue-maikel.netlify.com)
 
 This application aims to create a **response restaurant menu** using HTML5 and CSS.
 I received the task to create this using **no classes and no ids** to target elements in CSS.
