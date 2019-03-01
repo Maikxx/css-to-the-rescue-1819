@@ -98,7 +98,8 @@ main > footer button {
     margin-bottom: 1em;
 }
 
-main > footer button:hover {
+main > footer button:hover,
+main > footer button:focus {
     animation: rainbowBorder 1s linear infinite forwards;
 }
 
