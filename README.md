@@ -10,6 +10,10 @@ The **restrictions** I picked are:
 * Don't use regular shapes, like squares, rectangles, circles or triangles.
 * Make this page responsive without media queries.
 
+![First section](docs/assets/section-1.png)
+![Second section](docs/assets/section-2.png)
+![Payment section](docs/assets/payment.png)
+
 ## Table of Contents
 
 1. [Installation](#installation)
